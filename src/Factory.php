@@ -64,4 +64,9 @@ class Factory
     {
         return self::make($name, ...$arguments);
     }
+
+    public function test()
+    {
+        echo 111;
+    }
 }
